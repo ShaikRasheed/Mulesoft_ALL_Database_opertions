@@ -1,0 +1,31 @@
+#HTTP_Listener_config
+
+#HTTP_Listener_config
+
+http:
+  host: "localhost"
+  port: "8081"
+  timeout: "30000"
+
+#MySQL Database
+
+db:
+  mysql:
+    host: "localhost"
+    port: "3306"
+    username: "DB"
+    password: "Rasheed@31"
+  elephantdb:
+    url: "jdbc:postgresql://rain.db.elephantsql.com:5432/cogaowsy"
+    driverclassname: "org.postgresql.Driver"
+    username: "cogaowsy"
+    password: "p8GtsacgTxrWVAB1VPgjKKzdpu1CqNpK"
+ 
+
+queue:
+    jms:
+      username: "admin"
+      password: "admin"
+      brokerurl: " tcp://localhost:61616"
+    
+    
