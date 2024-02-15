@@ -14,18 +14,18 @@ db:
     host: "localhost"
     port: "3306"
     username: "DB"
-    password: "Rasheed@31"
+    password: "![DVEHPlNnkQqnk6GEH5QsyyiXnNOJJ6zYFxn+0fP+X+Y=]"
   elephantdb:
     url: "jdbc:postgresql://rain.db.elephantsql.com:5432/cogaowsy"
     driverclassname: "org.postgresql.Driver"
     username: "cogaowsy"
-    password: "p8GtsacgTxrWVAB1VPgjKKzdpu1CqNpK"
+    password: "![TaW4JIjEgV3553birMGptI7mD/Yq0pCF/nUg6Z9gtExm3qHUyOqOpryLG3tI85fuoNovsup+7v1nltqyQNlNiw==]"
  
 
 queue:
     jms:
       username: "admin"
-      password: "admin"
+      password: "![UIaBKO9QcEqgFcTbX1Hwb1i0YJl5OuMqWDgv7i1YHVY=]"
       brokerurl: " tcp://localhost:61616"
     
     
